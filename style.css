@@ -1,0 +1,606 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+header{
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+#NAVBAR>.iconrgt{
+    display: none;
+
+}
+.iconlft{
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 45%;
+    align-items: center;
+}
+.logo{
+    object-fit: cover;
+    width: 80px;
+    height: 40px;
+    
+}
+.BGimg{
+    width: 100%;
+    opacity: 0.6;
+    }
+.background{
+    position: relative;
+    top: -20px;
+    background-color: black;
+    
+    
+}
+#NAVBAR{
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    top: 2px;
+    
+}
+
+.namesec{
+ position: absolute;
+ top: 16%;
+ left: 50%;
+ transform: translateX(-50%);
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.heading{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    
+}
+.tagline{
+    color: white;
+    font-size: 1rem;
+   
+}
+.register{
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 10px;
+}
+ .sec2{
+    position: relative;
+    width: 100%;
+    top: -20px;
+    
+}
+
+.abouthead{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem; 
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+} 
+#About{
+    position: relative;
+    background-color: black;
+}
+.imgabout{
+    width: 100%;
+    height: 5vh;
+    object-fit: cover;
+    opacity: 0.4;
+   
+}
+.photos{
+    display: none;
+}
+.contents{
+    background-color: blue;
+}
+.content{
+    background-color:blue;
+    border-bottom-right-radius:100px ;
+}
+.contenthead{
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    color: white;
+    
+}
+.contentpara{
+    padding: 0px 1.5rem 1rem 1.5rem;
+    color: white;
+    text-align: justify;
+    font-size: 1rem;
+    
+}
+.tail{
+    height: 12px;
+    background-color:  gray;
+    margin-top: -2.3rem;
+    
+}
+.offerhead{
+   
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0px;
+    margin-top: -3px;
+    
+    
+}
+#imgheight{
+    height: 22vh;
+    opacity: 0.4;
+}
+.carousel-caption h5 {
+    font-size: 1.2rem; /* default font size for small screens */
+  }
+  
+  .carousel-caption p {
+    font-size: 0.9rem; /* default font size for small screens */
+  }
+  .divsub{
+    margin-bottom: 0px;
+    
+ }
+ .pricehead{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem
+ }
+ #packages{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0px;
+    justify-content: center;
+ }
+ .package{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(251, 40, 40);
+    margin-bottom: 1rem;
+    padding: 0px 1.5rem;
+    border-radius: 20px;
+ }
+ .package>h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: white;
+}
+.package>h3{
+    text-align: center;
+    font-size: 2.1rem;
+    padding-top: 0.5rem;
+    color: white;
+}
+.package>p{
+    text-align: justify;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: white;
+    
+}
+.package>#elite{
+    margin-bottom: 2.2rem;
+}
+.package>a{
+    text-decoration: none;      
+    margin-left: 35%;
+    background-color: rgb(0, 0, 255);
+    padding: 0.2rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    
+    
+}
+
+.package:hover{
+    transform: scale(1.1);
+}
+.package>a:hover{
+    border: solid blue;
+    color: black;
+    background-color: white;
+}
+
+#form{
+    background-color: skyblue;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    background-color:blue;
+    /* padding-top: 6%; */
+    padding-left:2rem;
+    
+    
+
+}
+.span{
+    display: block;
+}
+.col2{
+    padding-top: 1rem;
+    color: white;
+    font-family: "Montserrat", system-ui;
+    font-weight: 400;
+    cursor: pointer;
+   
+}
+.col2>p{
+    padding-top: 0.5rem;
+}
+.col2>a{
+    display: block;
+    padding: 0.5rem 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.col2>a>i{
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+
+}
+.col2>i{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.col2>i:hover{
+    color:orangered;
+    transform: font-size 2;
+    background-color: white;
+    border-radius: 100%;
+    
+}
+
+footer>p{
+    text-align: center;
+    background-color:red;
+    color: white;
+}
+
+.map{
+    margin-left: 8%;
+   
+    width: 300px;
+    height: 20vh;
+}
+.photos{
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+.content{
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+.package{
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (min-width:995px){
+    #NAVBAR>.iconrgt{
+    display: block;
+    align-items: center;
+    padding: 14px 1.5rem;
+    font-size: 2rem;
+    color: white;
+    }
+   
+    .background{
+        top: -20PX;
+        background-color: black;
+    }
+    #NAVBAR>.iconlft{
+        display: none;
+    }
+    .logo{
+        object-fit: cover;
+        width: 120px;
+        height: 60px;
+    }
+    .BGimg{
+        width: 100%;
+    }
+    #LINKS{
+        font-size: 1.5rem;
+    }
+  
+    .namesec{
+        margin-top: 28%;           
+    }
+    .heading{
+        margin-top: -30%;
+        font-size: 90px;
+        
+    }
+    .tagline{
+        font-size: 35px;
+        padding-bottom: 2rem;
+    }
+    .register{
+            font-size: 1.5rem;   
+            padding: 1rem;
+            border-radius: 20px;
+           
+    }
+    .register:hover {
+      
+       font-size: 26px;
+       
+    }
+    .sec2{
+        height: 30vh;
+        top: -20px;
+    }
+    .imgabout{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        opacity: 0.2;
+    }
+    .abouthead{
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3rem ;
+    }
+    .contents{
+        position: relative;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        width: 100%;
+        height: 100%;
+        color: white;
+        
+    }
+    
+    .contenthead{
+        padding: 1rem 1.5rem;
+        font-size: 2.5rem;
+    }
+    .contentpara{
+        
+        padding: 0px 1.5rem;
+        font-size: 1.5rem;
+        
+    }
+    
+    .content{
+        background-color: blue;
+        padding-top: 20%;
+        border-bottom-right-radius:0px ;
+    }
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: blue;
+        height: 65vh;
+        gap: 1rem;
+        padding: 1rem;
+        
+    }
+    
+    .img1{
+        object-fit: cover;
+        width: 100%;
+        height: 35vh;
+        border-radius: 30px;
+       
+    }
+    .img2{
+        object-fit: cover;
+        width: 100%;
+        height: 55vh;
+        border-radius: 30px;
+        
+    }
+    .img3{
+        object-fit: cover;
+        width: 100%;
+        height: 35vh;
+        border-radius: 30px;
+        
+    }
+    .img4{
+        object-fit: cover;
+        width: 100%;
+        height: 30vh;
+        border-radius: 30px;
+        
+    }
+    .img1,.img2,.img3,.img4{
+        opacity: 0.8;
+    }
+    .img4:hover{
+        opacity: 1;
+    }
+    .img1:hover{
+        opacity: 1;
+    }
+    .img2:hover{
+        opacity: 1;
+    }
+     .img3:hover{
+        opacity: 1;
+    }
+    #col1{
+        grid-column-start:1 ;
+        grid-row-start:1;
+        grid-row-end:3;
+       
+    }
+    #col2{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+    #col4{
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #col6{
+        grid-column-start: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    #col5{
+        height: 10vh;
+    }
+    .tail{
+        background-color: grey;
+        width: 100%;
+        height: 4vh;
+        margin-top: 62vh;
+    }
+    .doc{
+        width: 100%;
+        height: 20px;
+        background-color: black;
+    }
+    #imgheight{
+        object-fit: cover;
+        height: 45vh;
+        opacity: 0.4;
+        
+        
+        
+    }
+    .offerhead{
+        text-align: center;
+        color: white;
+        /* background-color: blue; */
+        margin-bottom: 0px;
+        padding-bottom: 1rem;
+        font-size: 3rem ;
+       
+    }
+    
+    .divsub{
+       margin-bottom: 5%;
+    }
+    .carousel-caption h5 {
+        font-size: 2.5rem; 
+      }
+      
+      .carousel-caption p {
+        font-size: 1.5rem; 
+      }
+      .pricehead{
+        text-align: center;
+        /* background-color: blue; */
+        padding: 1rem;
+        color: white;
+        font-size: 3rem;
+      }
+    #packages{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+       margin-bottom: 5rem;
+        margin-top: 5rem;
+        margin-right: 6%;
+    }
+    .package{
+        width: 350px;
+        height: 500px;
+        background-color: rgb(251, 40, 40);
+        margin-left: 5rem;
+        padding: 0px 1.5rem;
+        
+    }
+    .package>h2{
+        text-align: center;
+        font-size: 2.2rem;
+        padding-top: 1rem;
+        color: white;
+    }
+    .package>h3{
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 0.5rem;
+        color: white;
+    }
+    .package>p{
+        text-align: justify;
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        color: white;
+        margin-bottom: 3rem;
+    }
+    .package>#elite{
+        margin-bottom: 5rem;
+    }
+    .package>a{
+        text-decoration: none;      
+        margin-left: 35%;
+        background-color: rgb(0, 0, 255);
+        padding: 0.5rem;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        font-weight: 600;
+        
+    }
+    .row2{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        color: white;
+        
+        
+    }
+    .col2{
+        cursor: pointer;
+        
+    }
+    .col2>h3{
+        font-size: 2rem;
+    }
+    .col2>p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .col2>a{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .col2>a>i{
+        font-size: 1.5rem;
+    }
+    .col2>i{
+        font-size: 1.8rem;
+        padding-top: 0.5rem;
+    }
+    .span{
+      color: white;
+    }
+    footer>p{
+        font-size: 1.5rem;
+    }
+    .map{
+        width: 400px;
+        /* height: 100%; */
+    }
+
+}

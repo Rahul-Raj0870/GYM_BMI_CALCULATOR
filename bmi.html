@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div style="min-height: 100vh; position: relative;" class="row">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/background.jpg'); filter: blur(5px); z-index: -1;"></div>
+        
+        <div class="col"></div>
+        <div style="display: block; height: 92vh; background-color: gray; filter: blur(0px);"  class=" my-4 rounded col-4" id="BMI">
+            <div class="d-flex flex-column justify-content-center align-item-center">
+                <h1 style="color:orange" class="text-center">BMI Calculator</h1>
+                <img style="width: 25vh; height: 25vh; margin-top: 1rem;" class="img-fluid mx-auto bg-dark rounded-circle" src="./images/man.jpg" alt="" id="image">
+            </div>
+            <div>
+                <h5 class="mx-5 my-4 text-light">Select Gender</h5>
+                <div class="d-flex justify-content-around">
+                    <button onclick="selectmale()" style="width: 10vw;" class="btn btn-light " id="male">MALE</button>
+                    <button onclick="selectfemale()" style="width: 10vw;" class="btn btn-light " id="female">FEMALE</button>
+                </div>
+                <div>
+                    <h5 class="mx-5 my-4 text-light">Weight(Kg)</h5>
+                    <input style="width: 26vw;" class="mx-5 form-control" type="number" id="weight">
+                </div>
+                <div>
+                    <h5 class="mx-5 my-4 text-light">Height(CM)</h5>
+                    <input style="width: 26vw;" class="mx-5 form-control" type="number" id="height">
+                    <button onclick="CalculateBMI()" style="width: 26vw; background-color: rgb(81, 70, 70);" class="btn text-light my-5 mx-5 " id="BMIResult">Calculate BMI</button>
+                </div>
+            </div>
+        </div>
+        <div style="height: 70vh; width: 30vw; display: none;" class="bg-danger text-light my-5 rounded col-3" id="Package">
+            
+
+        </div>
+        <div class="col"></div>
+
+    </div>
+    
+</body>
+<script src="./main.js"></script>
+</html>
